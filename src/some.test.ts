@@ -1,6 +1,6 @@
 import { pipe, Effect as T } from '@effect-ts/core'
 import { test, expect } from 'vitest'
-import { sum } from './lib'
+import { sum } from './lib.js'
 
 test('should work as expected', () => {
   expect(Math.sqrt(4)).toBe(2)
